@@ -12,9 +12,8 @@ public class Main {
 
         var questions = service.loadQuestions();
 
-        questions.forEach(x -> System.out.println(x.getQuestion()));
+        questions.forEach(q -> System.out.println(q.getQuestion()));
 
-        System.out.println(questions);
         context.close();
     }
 }
