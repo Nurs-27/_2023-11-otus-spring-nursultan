@@ -10,6 +10,10 @@ repositories {
 }
 
 dependencies {
+    implementation("org.springframework:spring-context:6.1.1")
+    implementation("com.opencsv:opencsv:5.9")
+    compileOnly("org.projectlombok:lombok:1.18.30")
+
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
