@@ -6,5 +6,7 @@ import java.util.List;
 
 public interface QuizService {
 
+
     List<QuestionAnswerPair> loadQuestions();
+
 }
